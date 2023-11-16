@@ -121,6 +121,10 @@ section {
 
 
 
+.logo-site {
+    display: flex;
+    align-items: center;
+}
 
 .logo-site a {
     display: flex;
@@ -134,6 +138,7 @@ section {
 
 .nav-list {
     width: 50%;
+    padding: 15px 0;
     display: flex;
     align-items: center;
 }
@@ -194,7 +199,7 @@ nav ul li a {
 
 .swiper-slide {
     width: 100%;
-    height: 60vh !important;
+    height: 70vh !important;
     background-image: url("../image/banner1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,6 +253,21 @@ nav ul li a {
 
 .our-farm-section .farm-slide {
     width: 55%;
+    margin: auto auto;
+}
+
+.our-farm-section .farm-slide span {
+    display: inline-block;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.our-farm-section .farm-slide span img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    background-color: var(--primary);
+    margin: 0px 0;
 }
 
 .our-farm-section .farm-content {
@@ -418,6 +438,7 @@ nav ul li a {
 
 .blog-section {
     padding: 100px 0;
+    padding-top: 50px;
     background-color: var(--secondary);
 }
 
@@ -651,11 +672,12 @@ nav ul li a {
     color: aliceblue;
 }
 
-footer .copy-right{
+footer .copy-right {
     text-align: center;
     margin-top: 70px;
 }
-footer .copy-right a{
-   color: rgb(177, 177, 17);
-   text-decoration:underline;
+
+footer .copy-right a {
+    color: rgb(177, 177, 17);
+    text-decoration: underline;
 }
