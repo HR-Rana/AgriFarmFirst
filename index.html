@@ -338,7 +338,7 @@
                         <div class="gallary">
                             <h3>Gallary</h3>
                             <br>
-                            <div>
+                            <div class="img">
                                 <img src="./image/grid-gallery-01-93x93.jpg" alt="">
                                 <img src="./image/grid-gallery-02-93x93.jpg" alt="">
                                 <img src="./image/grid-gallery-03-93x93.jpg" alt="">
@@ -346,9 +346,39 @@
                             </div>
                         </div>
                     </div>
-                    <div class="middle-footer"></div>
-                    <div class="right-footer"></div>
+                    <div class="middle-footer">
+                        <h3>Quick Links</h3>
+                        <span>
+                            <ul>
+                                <li><a href="">Our Team</a></li>
+                                <li><a href="">New Products</a></li>
+                                <li><a href="">Top Sellers</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">Smoothies</a></li>
+                                <li><a href="">Engry Bowls</a></li>
+                                <li><a href="">Juices</a></li>
+                                <li><a href="">Ingredients</a></li>
+                                <li><a href="">Delivery</a></li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div class="right-footer">
+                        <h3>Contact</h3>
+                        <span>
+                            <li><i class="fa-solid fa-location-dot"></i> 523 Sylvan Ave, 5th Floor, Mountain View, CA
+                                94041 USA</li>
+                            <li><i class="fa-solid fa-phone"></i> +1 (844) 123 456 78</li>
+                            <li><i class="fa-solid fa-envelope"></i> info@demolink.org</li>
+                        </span>
+                    </div>
                 </div>
+            </div>
+            <div class="copy-right">
+                <p>&copy; copyright 2023 | all deserves goes to <a href="">AgriFarm</a></p>
             </div>
         </footer>
     </section>
@@ -393,49 +423,49 @@
                 prevEl: ".swiper-button-prev",
             },
         });
-    
- $('.slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.slider-for',
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
-});
 
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-});
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true
+        });
 
-//  owl carousel 
-   $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:5,
-            nav:true,
-            loop:false
-        }
-    }
-})
-      
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        //  owl carousel 
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+
 
     </script>
 </body>

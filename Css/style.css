@@ -498,7 +498,7 @@ nav ul li a {
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
     position: relative;
-   
+
 }
 
 .our-team-section .member-body {
@@ -521,17 +521,19 @@ nav ul li a {
     -o-transform: scale(1.0);
 }
 
-.our-team-section .member h3{
+.our-team-section .member h3 {
     color: var(--primary);
     font-size: 19px;
 }
-.our-team-section .member p{
+
+.our-team-section .member p {
     font-size: 16px;
     margin: 0;
     margin-top: 15px;
     font-weight: 600;
     letter-spacing: 1px;
 }
+
 .our-team-section .member:hover .member-body {
     position: static;
 }
@@ -545,7 +547,7 @@ nav ul li a {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-     overflow: hidden;
+    overflow: hidden;
 }
 
 .our-team-section .social-icons ul {
@@ -556,14 +558,104 @@ nav ul li a {
     justify-content: space-between;
 
 }
-.our-team-section .social-icons ul li:hover{
+
+.our-team-section .social-icons ul li:hover {
     cursor: pointer;
     color: var(--primary);
 }
 
 
-.footer-section{
+.footer-section {
     width: 100%;
     height: 100%;
     background-color: black;
+    color: white;
+    padding: 100px;
+}
+
+.footer-section .left-footer {
+    width: 30%;
+}
+
+.footer-section .left-footer .gallary {
+    width: 70%;
+}
+
+.footer-section .left-footer .img {
+    width: 100%;
+}
+
+.footer-section .left-footer img {
+    width: 48%;
+    display: inline-block;
+
+}
+
+.footer-section .middle-footer {
+    width: 30%;
+}
+
+.footer-section .middle-footer span {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-section .middle-footer ul {
+    width: 40%;
+}
+
+.footer-section .middle-footer ul li {
+    margin: 15px 0;
+    list-style: square;
+    font-size: 15px;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.footer-section .middle-footer ul li a {
+    color: aliceblue;
+}
+
+.footer-section .middle-footer ul li:hover {
+    transform: translateX(5px);
+    -webkit-transform: translateX(7px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+}
+
+.footer-section .right-footer {
+    width: 30%;
+}
+
+.footer-section .right-footer span {
+    margin-top: 25px;
+}
+
+.footer-section .right-footer li {
+    margin: 40px 0;
+    display: flex;
+}
+
+.footer-section .right-footer li svg {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20px;
+    margin-right: 15px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+footer .copy-right{
+    text-align: center;
+    margin-top: 70px;
+}
+footer .copy-right a{
+   color: rgb(177, 177, 17);
+   text-decoration:underline;
 }
