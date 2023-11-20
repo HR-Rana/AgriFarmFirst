@@ -1,0 +1,41 @@
+.slick-prev,
+.slick-next {
+    display: none;
+}
+
+.multiple-items {
+    display: none;
+}
+
+.our-farm-section .flex-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.farm-content {
+    width: 42% !important;
+}
+
+.our-farm-section .farm-slide {
+    width: 55%;
+    margin: auto auto;
+   margin-left: 35px;
+
+}
+
+.our-farm-section .farm-slide img {
+    width: 800px;
+
+}
+
+.our-farm-section .farm-slide img {
+    width: 100% !important;
+
+}
+
+.our-farm-section .farm-slide span {
+    display: inline-block;
+    width: 100%;
+    justify-content: space-between;
+}

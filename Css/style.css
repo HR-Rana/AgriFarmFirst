@@ -141,6 +141,7 @@ section {
     padding: 15px 0;
     display: flex;
     align-items: center;
+    
 }
 
 nav {
@@ -150,7 +151,7 @@ nav {
 }
 
 nav ul {
-    width: 75%;
+    width: 85%;
     padding: 15px 0;
     justify-content: space-between;
 }
@@ -164,8 +165,17 @@ nav ul li a {
     font-size: 18px;
 }
 
+/* .hello{
+    display: none;
+} */
 
+.slick-prev, .slick-next{
+    display: none;
+}
 
+.multiple-items{
+    display: none;
+}
 
 
 
@@ -258,13 +268,13 @@ nav ul li a {
 
 .our-farm-section .farm-slide span {
     display: inline-block;
-    width: 40%;
+    width: 90%;
     justify-content: space-between;
 }
 
 .our-farm-section .farm-slide span img {
     width: 100%;
-    height: 150px;
+    height: 350px;
     object-fit: cover;
     background-color: var(--primary);
     margin: 0px 0;
@@ -295,12 +305,11 @@ nav ul li a {
     font-size: 16px;
     text-transform: uppercase;
     border-bottom: 7px solid rgb(207, 207, 207);
-
+    
 }
 
 .our-farm-section .farm-content ul li {
     padding: 15px 0;
-    border-bottom: 3px solid rgb(255, 255, 255);
     position: relative;
     cursor: pointer;
 }
@@ -311,7 +320,7 @@ nav ul li a {
     height: 7px;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -6px;
     background-color: var(--primary);
 }
 
@@ -325,8 +334,46 @@ nav ul li a {
     margin: 15px 0;
 }
 
+.farm-slide
+button.slick-arrow{
+    display: none !important;
+}
+.slick-dots{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.slick-dots li{
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.slick-dots li:nth-child(1){
+    background-image: url("../image/banner1.jpg");
+}
+.slick-dots li:nth-child(2){
+    background-image: url("../image/post-2-370x239.jpg");
+}
+.slick-dots li:nth-child(3){
+    background-image: url("../image/post-3-370x239.jpg");
+}
 
+.slick-dots li:nth-child(4){
+    background-image: url("../image/post-1-370x239.jpg");
+}
 
+.farm-slide
+.slick-dots li button{
+   display: none;
+}
+.slick-dots li.slick-active{
+    border: 2px solid red;
+}
 
 
 
