@@ -20,7 +20,7 @@
 .our-farm-section .farm-slide {
     width: 55%;
     margin: auto auto;
-   margin-left: 35px;
+    margin-left: 35px;
 
 }
 
@@ -38,4 +38,11 @@
     display: inline-block;
     width: 100%;
     justify-content: space-between;
+}
+
+.slick-dots {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
 }

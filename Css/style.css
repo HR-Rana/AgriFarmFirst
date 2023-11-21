@@ -100,7 +100,10 @@ h6 {
     font-family: 'Maven Pro', sans-serif;
     margin: 10px 0;
 }
-
+.active{
+    font-weight: 600;
+    color: #619f7b;
+}
 section {
     padding: 200px 0;
 }
@@ -339,7 +342,7 @@ button.slick-arrow{
     display: none !important;
 }
 .slick-dots{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     margin: 5px 0;
